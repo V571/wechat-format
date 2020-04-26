@@ -1,18 +1,41 @@
-使用时，你得把默认的 Markdown 内容换成你自己的内容。
+作者 / PZH（14px，左对齐，#212121，加粗；14px，#4a4a4a，段后距 25，行间距 1.5）
 
-关于本工具的介绍请看[这篇公众号文章](https://mp.weixin.qq.com/s/pn0LzyfgUj6rGUfVHUksjg)。
+导语：本模板自2020年4月11日起成为公用模板，已适配 Dark Mode，可供大家参考 / 学习 / 使用，使用时需要标注「版面来自 Philosophia 哲学社模板」。（左对齐，两端缩进 32，#888888，行间距 1.5，字间距默认，段后距 25）
+
+在图片素材库 - 常用里选择 "小标题 1.png"，点击图片选择「自适应手机屏幕宽度」，为一级小标题，如下。
+
+## 小标题配字
+
+正文 #4a4a4a，15px，1.75 倍行距，两端缩进 8，字间距 0.5，段后距 25。当文本均为中文时，两端对齐；只要一段文本中出现英文则左对齐。
+
+所有中文引号应均为直角引号「双引号『单引号』」，所有英文引号应为 "Citation, 'citation'"。
+
+将中文文字内容从其他渠道（如 Pages 或 Word）粘贴过来的时候，只能用纯文本粘贴（在 Mac 上快捷键为 Shift+Option+Command+V），不能直接用 Command+V 粘贴。
+
+如果需要中英混排，中文和英文（乃至数字）之间需要添加一个空格，如下：
+
+如需要发布全英文内容，应当参照以下操作方式：
+
+1. 打开 Pages 或 Word，用 Palatino 字体输入需要发布的英文内容；
+
+2. 将原文设置为 10px 字，一倍行距；
+
+3. 直接 Command+V 粘贴到公众平台编辑器，需要使用 Safari 浏览器等不完全支持公众平台编辑器的浏览器；
+
+4. 调整字体大小和行间距至合适，不需要局限在中文的 15px 和 1.75 行间距；但一定要左对齐，字间距为默认。
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis purus, semper a pharetra eget, aliquam et lectus. Vivamus faucibus suscipit faucibus. Suspendisse magna mauris, vulputate sit amet velit ac, cursus pulvinar nunc.
+
+加粗是一种强调格式，由排版者或作者决定哪些语句需要加粗。加粗分为一级加粗和二级加粗：
+
+一级加粗：直接加粗即可。
+
+二级加粗：**加粗**，颜色为#27c2a8，仅用于强调极其重点内容，尽量少用。
 
 
-## 一级标题
+### 二级标题样式
 
-这是一级标题
-
-
-### 二级标题
-
-上面是二级标题
-
-## 文字样式
+二级标题分为两部分：数字标号和配字。数字标号为序号图片，自适应屏幕宽度，1 倍行距；配字为 16px 加粗，颜色 #212121。
 
 ### 基本样式
 
@@ -24,33 +47,6 @@
 我最大的*爱好*是拆汽车，我拆了很多汽车，宝马、奔驰、劳斯莱斯和特斯拉，但是都没装回去。
 
 上面表现了链接和加重两种样式，公众号以外的链接会被转换为脚注。
-
-
-### 注音符号
-
-[注音符号 W3C 定义](http://www.w3.org/TR/ruby/)。支持日语注音假名，小夜時雨【さ・よ・しぐれ】 和 汉语拼音 上海【Shàng・hǎi】
-
-用法有以下几种：
-
-```
-世界【せかい】
-世界{せかい}
-```
-
-世界{せかい}
-
-```
-小夜時雨【さ・よ・しぐれ】
-```
-
-小夜時雨【さ・よ・しぐれ】
-
-```
-食べる【たべる】
-食べる{たべる}
-```
-
-食べる{たべる}\n\n english【英文】 will not translated{fan yi}'
 
 
 ## 段落、列表、引用
@@ -67,66 +63,10 @@
 - 另一个列表项
 - 第三个列表项
 
-托 [Neko](https://github.com/nekocode) 的福，有序的列表项支持了。
-
-1. 一个列表项
-2. 另一个列表项
-3. 第三个列表项
-
 使用 Markdown 最大的意义在于可以让你关注写作本身，不需要花费精力在别的事情上。无论是严肃写作还是随手记，Markdown 都是最佳形式。
 
-> 引用：使用 Markdown 最大的意义在于可以让你关注写作本身 —— Lyric
+> 18 世纪所建立起来的我觉得是这样一种权力，它实际上不是镇压的，而是生产性的——镇压在此只是作为侧面的次要的作用，次要是相对于那些相对这个权力处于中心的机制；进行制造的机制，进行创造的机制，进行生产的机制。
+
+> 米歇尔 · 福柯
 
 好。
-
-## 代码块、表格、图片
-
-接下来是一张图片。你可以用自己图床，也可以上传到微信媒体库再把图片 URL 粘贴回来，或者编辑好以后，在公众号里插入图片。
-
-![](https://res.wx.qq.com/mpres/zh_CN/htmledition/pages/login/loginpage/images/bg_banner4273fb.png)
-
-代码块，使用微信官方的高亮配色，在代码块标示语言即可。粘贴到公众号后，需要用鼠标点一下代码块，完成高亮。
-
-
-    ```cpp
-    你的代码
-    ```
-
-
-
-```cpp
-#include <stdio.h>
-
-const int MAX = 10;
-int cache[MAX] = {0};
-
-int fib(int x) {
-  if (x == 1) return 1;
-  if (x == 0) return 0;
-  if (cache[x] == 0) {
-    int ret = fib(x - 1) + fib(x - 2);
-    cache[x] = ret;
-  }
-  return cache[x];
-}
-
-int main() {
-    int i;
-    printf("fibonacci series:\n");
-    for (i = 0; i < MAX; ++i) {
-        printf("%d ", fib(i));
-    }
-    return 0;
-}
-```
-
-然后是一个内联代码： a paragraphg with inline code `{code: 0}`。
-
-接下来是表格示例：
-
-| Header 1 | Header 2 |
-| --- | --- |
-| Key 1 | Value 1 |
-| Key 2 | Value 2 |
-| Key 3 | Value 3 |
-
