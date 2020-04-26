@@ -84,10 +84,12 @@ var defaultTheme = {
       'border-radius': '2px',
     },
     link: {
-      'color': '#27c2a8'
+      'font-size': '15px',
+      'color': '#27c2a8',
     },
     strong: {
-      'color': '#27c2a8'
+      'font-size': '15px',
+      'color': '#27c2a8',
     },
     table: {
       'border-collapse': 'collapse',
