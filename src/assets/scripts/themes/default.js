@@ -84,7 +84,7 @@ var defaultTheme = {
       'border-radius': '2px',
     },
     link: {
-      'color': '#ff3502'
+      'color': '#27c2a8'
     },
     strong: {
       'color': '#27c2a8'
