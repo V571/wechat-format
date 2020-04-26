@@ -19,8 +19,8 @@ var defaultTheme = {
     },
     h3: {
       'font-weight': 'bold',
-      'font-size': '120%',
-      'margin': '40px 10px 20px 10px'
+      'font-size': '16px',
+      'margin': '0px 8px 25px 8px'
     },
     p: {
       'font-size': '15px',
@@ -87,7 +87,7 @@ var defaultTheme = {
       'color': '#ff3502'
     },
     strong: {
-      'color': '#ff3502'
+      'color': '#27c2a8'
     },
     table: {
       'border-collapse': 'collapse',
